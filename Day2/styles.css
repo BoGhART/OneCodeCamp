@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+} /*CSS  reset formore  uniformsize  on different platforms*/
+
+h1{
+    color: red;
+    background-color: rgb(132, 38, 105);
+    padding: 20px;
+    border: red solid 5px;
+    /*border: 5px 10px 15px 20px;
+    border: red solid; for more specific instructions  */
+    margin: 30px;
+}
+
+.font{
+    color: blue;
+}
+
+#Bogzz{
+    color: pink;
+    display: block;
+    border: red solid 1px;
+}
+
+/*#pages{
+    display: inline-block;
+}*/
+/*#"id"*{
+    for specific list
+}*/
+
+li{
+    display: inline-block;
+}
+
+@media only screen and (min-width: 480px) {
+    .sm-0{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .md-1{
+        width: 25%;
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+    .lg-2{
+        width: 50%;
+        background-color: yellow;
+    }
+}

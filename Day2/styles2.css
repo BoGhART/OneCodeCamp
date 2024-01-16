@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+    #logo{
+        min-height: 130px;
+        width: 940px;
+        background-color: #B97A57;
+        margin: 0px 0px;
+    }
+    #wrapper{
+        width: 940px;
+        background-color: #FFD9B7;
+        margin: 0px 250px -20px 250px;
+    }
+    #navigation{
+        min-height: 130px;
+        width: 940px;
+        background-color: #FF7F27;
+        margin: 0px;
+    }
+    #main_content{
+        min-height: 250px;
+        width: 940px;
+        background-color: #880015;
+        margin: 0px;
+        display: block;
+    }
+    #about{
+        min-height: 200px;
+        width: 850px;
+        background-color: #FFAEC9;
+        margin: 25px 50px 0px;
+        display: inline-block;
+    }
+    .sponsors{
+        min-height: 65px;
+        width: 940px;
+        background-color: #FFFF88;
+        margin: 20px 0px;
+    }
+
+
+@media only screen and (min-width: 786px){
+#logo{
+        min-height: 130px;
+        width: 280px;
+        background-color: #B97A57;
+    }
+    #wrapper{
+        width: 940px;
+        background-color: #FFD9B7;
+        margin: 0px auto;
+    }
+    #navigation{
+        min-height: 130px;
+        width: 650px;
+        background-color: #FF7F27;
+        margin: -150px 290px 0px;
+    }
+    #main_content{
+        min-height: 250px;
+        width: 940px;
+        background-color: #880015;
+        margin: 0px 0px 0px 0px;
+        display: block;
+    }
+    #about{
+        min-height: 200px;
+        width: 820px;
+        background-color: #FFAEC9;
+        margin: 25px 50px 0px;
+        display: inline-block;
+    }
+    .sponsors{
+        min-height: 65px;
+        width: 450px;
+        background-color: #FFFF88;
+        margin: 8px 0px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    #logo{
+    min-height: 130px;
+    width: 260px;
+    background-color: #B97A57;
+    }
+    #wrapper{
+        width: 940px;
+        background-color: #FFD9B7;
+        margin: 0px auto;
+    }
+    #navigation{
+        min-height: 130px;
+        width: 650px;
+        background-color: #FF7F27;
+    }
+    #main_content{
+        min-height: 250px;
+        width: 940px;
+        background-color: #880015;
+        margin: 0px 0px 0px;
+        display: block;
+    }
+    #about{
+        min-height: 200px;
+        width: 650px;
+        background-color: #FFAEC9;
+        display: inline-block;
+        margin: 30px;
+    }
+    #advertisement{
+        min-height: 180px;
+        width: 155px;
+        background-color: #C8BFE7;
+        margin: -240px 750px 0px;
+    
+        
+    }
+    .sponsors{
+        min-height: 65px;
+        width: 310px;
+        background-color: #FFFF88;
+    }
+}

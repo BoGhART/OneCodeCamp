@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 480px){
+    .mobile{
+        width: 25%;
+        background-color: pink;
+    }
+}
+
+@media only screen and (min-width: 481px){
+    .tablet{
+        width: 50%;
+        background-color: green;
+    }
+}
+
+
+@media only screen and (min-width: 1000px){
+    .desktop{
+        width: 75%;
+        background-color: purple;
+    }
+}
