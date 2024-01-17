@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-wixmp-ed30a86b8c4ca887773594c2.wixmp.com%2Ff%2Fa665c883-531f-491e-af67-198bb5206ea6%2Fd3n15qk-e549fda4-cbdf-41fc-8936-77ef3f68f82b.jpg%2Fv1%2Ffill%2Fw_900%2Ch_390%2Cq_75%2Cstrp%2Fnew_portfolio_background_by_larundel_d3n15qk-fullview.jpg%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzkwIiwicGF0aCI6IlwvZlwvYTY2NWM4ODMtNTMxZi00OTFlLWFmNjctMTk4YmI1MjA2ZWE2XC9kM24xNXFrLWU1NDlmZGE0LWNiZGYtNDFmYy04OTM2LTc3ZWYzZjY4ZjgyYi5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.d51p-Iu-wiJ1-slcJsbsVe7wK5Do9d2Us96DUqMASj8&f=1&nofb=1&ipt=b9b12c46d81edae3402fd1d083ce6da50b182de406f1004f723f4e4d0a83a393&ipo=images');
+    color: #333;
+}
+
+header {
+    background-color: rgb(54, 27, 103, 0.5);
+    color: #fff;
+    padding: 2% 0;
+}
+
+section {
+    color: aliceblue;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(54, 27, 103, 0.5);
+}
+
+p {
+    display: table-cell;
+    margin: 1%;
+}
+
+#about, #Test, #contact{
+    margin: 1% 25% 1% 1%;
+}
+
+h1,h3{
+    color: azure;
+}
+
+h2{
+    color: azure;
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    text-align: center;
+    background-color: rgb(54, 27, 103, 0.5);
+    color: #fff;
+    padding: 2%;
+}
+
+/*.center {
+    display: block;
+    margin: 5% auto 0 auto;
+    width: auto;
+}*/
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 10% 0 0 42%;
+    width: auto;
+}
+
+.default-image {
+    display: block;
+    width: 200px; /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+  /* Hover state - change the image source */
+.image-container:hover .default-image {
+    content: url('https://www.meme-arsenal.com/memes/dab833d854239b8e8cf516acda5b6234.jpg');
+}
+
+#contact{
+    color: aliceblue;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(54, 27, 103, 0.5);
+}
+
+.con{
+    color: aliceblue;
+    display: flex;
+    padding: auto;
+    margin: 1% 55% 0 0;
+    background-color: rgb(54, 27, 103);
+}
