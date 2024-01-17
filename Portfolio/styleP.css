@@ -3,7 +3,11 @@
     padding: 0;
 }
 
-body {
+body.front{
+    background-color: black;
+}
+
+body.gen{
     font-family: Arial, sans-serif;
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-wixmp-ed30a86b8c4ca887773594c2.wixmp.com%2Ff%2Fa665c883-531f-491e-af67-198bb5206ea6%2Fd3n15qk-e549fda4-cbdf-41fc-8936-77ef3f68f82b.jpg%2Fv1%2Ffill%2Fw_900%2Ch_390%2Cq_75%2Cstrp%2Fnew_portfolio_background_by_larundel_d3n15qk-fullview.jpg%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzkwIiwicGF0aCI6IlwvZlwvYTY2NWM4ODMtNTMxZi00OTFlLWFmNjctMTk4YmI1MjA2ZWE2XC9kM24xNXFrLWU1NDlmZGE0LWNiZGYtNDFmYy04OTM2LTc3ZWYzZjY4ZjgyYi5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.d51p-Iu-wiJ1-slcJsbsVe7wK5Do9d2Us96DUqMASj8&f=1&nofb=1&ipt=b9b12c46d81edae3402fd1d083ce6da50b182de406f1004f723f4e4d0a83a393&ipo=images');
     color: #333;
@@ -15,20 +19,57 @@ header {
     padding: 2% 0;
 }
 
-section {
-    color: aliceblue;
-    padding: 1%;
-    margin: 1%;
-    background-color: rgb(54, 27, 103, 0.5);
+nav{
+    margin: 0% 2%;
 }
+
+.navi{
+    display: inline;
+    margin: 1% 1%;
+}
+
 
 p {
     display: table-cell;
     margin: 1%;
 }
 
-#about, #Test, #contact{
-    margin: 1% 25% 1% 1%;
+.intro, .about{
+    color: aliceblue;
+    padding: 1% 1% 25%;
+    margin: 1% 5% 1%;
+    background-color: rgb(54, 27, 103, 0.5);
+}
+
+#contact{
+    color: aliceblue;
+    padding: 1% 1% 10%;
+    margin: 1% 5%;
+    background-color:  rgb(54, 27, 103, 0.5);
+}
+.con{
+    color: aliceblue;
+    display: flex;
+    margin: 15% 55% -14% 0;
+    background-color: rgb(53, 28, 100);
+}
+
+.mb-2{
+    margin: 1%  10% 1% 55%;
+}
+
+#grn{
+    padding: 1% 1%;
+    margin: 0 15% 0 55%;
+    background-color: green;
+    color: aliceblue;
+}
+
+.ext{
+    color: aliceblue;
+    background-color: rgb(54, 27, 103, 0.5);
+    padding: 1% 2% 1% 2%;
+    margin: 1% 5% 5%;
 }
 
 h1,h3{
@@ -40,51 +81,40 @@ h2{
 }
 
 footer {
-    position:fixed;
-    bottom:0;
-    left:0;
-    right:0;
-    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: rgb(54, 27, 103, 0.5);
     color: #fff;
-    padding: 2%;
+    padding: 10px 0;
+    text-align: center;
 }
 
-/*.center {
-    display: block;
-    margin: 5% auto 0 auto;
-    width: auto;
-}*/
+
+.content-wrapper {
+    margin-bottom: 50px;
+}
+
+.paa {
+    margin: 5% 0 5%;
+}
 
 .image-container {
     position: relative;
     display: inline-block;
+    padding: auto;
     margin: 10% 0 0 42%;
-    width: auto;
+    width: 100%;
 }
 
 .default-image {
     display: block;
-    width: 200px; /* Set your desired width */
-    height: auto; /* Maintain aspect ratio */
+    width: 200px;
+    height: auto;
 }
 
-  /* Hover state - change the image source */
+
 .image-container:hover .default-image {
     content: url('https://www.meme-arsenal.com/memes/dab833d854239b8e8cf516acda5b6234.jpg');
-}
-
-#contact{
-    color: aliceblue;
-    padding: 1%;
-    margin: 1%;
-    background-color: rgb(54, 27, 103, 0.5);
-}
-
-.con{
-    color: aliceblue;
-    display: flex;
-    padding: auto;
-    margin: 1% 55% 0 0;
-    background-color: rgb(54, 27, 103);
 }
