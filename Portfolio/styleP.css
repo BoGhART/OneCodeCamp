@@ -35,27 +35,39 @@ p {
 }
 
 .intro, .about{
+    display: flexbox;
     color: aliceblue;
     padding: 1% 1% 25%;
     margin: 1% 5% 1%;
     background-color: rgb(54, 27, 103, 0.5);
 }
 
-#contact{
+.desc{
+    display: flexbox;
     color: aliceblue;
-    padding: 1% 1% 10%;
+    padding: 3% 1% 5%;
+    margin: 3% 5%;
+    background-color: rgb(54, 27, 103, 0.5);    
+}
+
+#contact{
+    display: flexbox;
+    color: aliceblue;
+    padding: 1% 1% 5%;
     margin: 1% 5%;
     background-color:  rgb(54, 27, 103, 0.5);
 }
 .con{
+    display: flexbox;
     color: aliceblue;
     display: flex;
-    margin: 15% 55% -14% 0;
+    margin: 5% 70% -4% 0;
     background-color: rgb(53, 28, 100);
 }
 
 .mb-2{
-    margin: 1%  10% 1% 55%;
+    display: flexbox;
+    margin: -16%  10% 1% 55%;
 }
 
 #grn{
@@ -65,11 +77,20 @@ p {
     color: aliceblue;
 }
 
-.ext{
+.btp{
+    display: inline-flexbox;
     color: aliceblue;
     background-color: rgb(54, 27, 103, 0.5);
     padding: 1% 2% 1% 2%;
-    margin: 1% 5% 5%;
+    margin: 5% /* Adjust the margin between buttons */
+}
+
+.ext{
+    display: flexbox;
+    color: aliceblue;
+    background-color: rgb(54, 27, 103, 0.5);
+    padding: 1% 2% 1% 2%;
+    margin: 5%;
 }
 
 h1,h3{
@@ -81,7 +102,7 @@ h2{
 }
 
 footer {
-    position: fixed;
+    position: flex;
     bottom: 0;
     left: 0;
     right: 0;
@@ -117,4 +138,12 @@ footer {
 
 .image-container:hover .default-image {
     content: url('https://www.meme-arsenal.com/memes/dab833d854239b8e8cf516acda5b6234.jpg');
+}
+
+.pics{
+    display: flexbox;
+    color: aliceblue;
+    padding: 5% 1% 5%;
+    margin: 3% 5%;
+    background-color: rgb(54, 27, 103, 0.5);  
 }
