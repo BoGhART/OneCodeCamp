@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    margin: 5px;;
+}
+button {
+    margin: 15% 15% 15% 20%;
+}
+.watch{
+    border-style: solid;
+    border-color:black;
+    border-radius: 10%;
+    margin: 18%;
+    padding: 5%;
+    background-color: rgb(89, 26, 149);
+}
+.Inp{
+    border-style: ridge;
+    font-size: larger;
+    color: aliceblue;
+    margin: 5% 5% 5% 5%;
+    padding: 2% 1% 2% 1%;
+    text-align: center;
+    align-content: center;
+    background-color: rgba(64, 15, 110, 0.5);
+}
+#timeInput{
+    padding: 8px 50px;
+    font-size: 15px;
+    text-align: center;
+}
+#timeInput::-webkit-inner-spin-button,
+#timeInput::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.btn{
+    border-style: ridge;
+    margin: 5%;
+    display: flex;
+    background-color: rgba(64, 15, 110, 0.5);
+}
+.bton{
+    border-style: inherit;
+    font-size: 20px;
+    margin-right: -8%;
+    padding: 15px 8px;
+    border-radius: 8px;
+}
+.tmr{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    padding: 10%;
+    margin: 10% 5%;
+    text-align: center;
+    border-style: groove;
+    background-color: rgba(151, 198, 71, 0.568);
+}
