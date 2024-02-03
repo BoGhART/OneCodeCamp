@@ -1,13 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/index.css';
 
 const Navigation = () => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container">
-      <a className="navbar-brand" href="#intro">Home</a>
-      <a className="navbar-brand" href="#about">About Me</a>
-      <a className="navbar-brand" href="#contact">Contact</a>
+      <ScrollLink to="intro" smooth={true} duration={500} className="navbar-brand">Home</ScrollLink>
+      <ScrollLink to="about" smooth={true} duration={500} className="navbar-brand">About Me</ScrollLink>
+      <ScrollLink to="contact" smooth={true} duration={500} className="navbar-brand">Contact</ScrollLink>
     </div>
   </nav>
 );
@@ -66,12 +68,19 @@ const Portfolio = () => (
 
     <About />
 
-    <a className="btn btn-primary" href="Travels.html" role="button">Travel Journal</a>
-    <a className="btn btn-primary" href="Projects.html" role="button">Projects</a>
+    <Link to="/Travels" className="btn btn-primary" role="button">
+    Travel Journal
+    </Link>
+    <Link to="/Projects" className="btn btn-primary" role="button">
+      Projects
+    </Link>
+
 
     <Contact />
 
-    <a className="btn btn-danger" href="Portfolio.html" role="button">Exit</a>
+    <Link to="/" className="btn btn-danger" role="button">
+      Exit
+    </Link>
 
     <footer className="text-center mt-5">
       Portfolio

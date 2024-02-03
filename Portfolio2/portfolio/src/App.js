@@ -15,17 +15,23 @@
 
 
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Front from './comps/Front';
-import Portfolio from './comps/Portfolio'; // Replace with the actual file name of the target JS file
+import Portfolio from './comps/Portfolio'; 
+import TravelJournal from './comps/Travels';
+import Projects from './comps/Projects';
 
 const App = () => (
   <Router>
-    <Switch>
-      <Route exact path="/" component={Front} />
-      <Route path="/" component={Portfolio} />
-    </Switch>
+    <Routes>
+      <Route path="/" element={<Front />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/travels" element={<TravelJournal />} />
+      <Route path="/projects" element={<Projects />} />
+    </Routes>
   </Router>
 );
 
 export default App;
+
+
