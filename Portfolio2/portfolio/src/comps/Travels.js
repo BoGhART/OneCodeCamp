@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../assets/index.css';
+import '../assets/style.css';
 import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import image1 from '../assets/414436063_7134139116607759_7718479973048955449_n.jpg';
@@ -10,9 +10,10 @@ import image3 from '../assets/416491039_7168825386472465_2748332323074195778_n.j
 
 const Travels = () => {
   return (
-    <div className="gen">
+    <div >
       <header>
-            <nav>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="container">
                 <Link to="/portfolio" className="navi">
                     Home
                 </Link>
@@ -22,6 +23,7 @@ const Travels = () => {
                 <Link to="/portfolio/#contact" className="navi">
                     Contact
                 </Link>
+            </div> 
             </nav>
       </header>
 
@@ -36,13 +38,13 @@ const Travels = () => {
         <div className="container mt-5">
           <Carousel>
             <Carousel.Item>
-              <img className="d-block w-100" src={image1} alt="Image 1" />
+              <img className="d-block w-100" src={image1} alt="1" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block w-100" src={image2} alt="Image 2" />
+              <img className="d-block w-100" src={image2} alt="2" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block w-100" src={image3} alt="Image 3" />
+              <img className="d-block w-100" src={image3} alt="3" />
             </Carousel.Item>
           </Carousel>
         </div>

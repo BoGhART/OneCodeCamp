@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
 body.front{
     background-color: black;
 }
@@ -39,7 +41,7 @@ p {
     display: flexbox;
     color: aliceblue;
     padding: 1% 1% 25%;
-    margin: 2% 5% 1%;
+    margin: 2% 5% 2%;
     background-color: rgb(54, 27, 103, 0.5);
 }
 
@@ -102,13 +104,11 @@ h2{
 }
 
 footer {
-    position: flex;
+    position: fixed;
     bottom: 0;
-    left: 0;
-    right: 0;
+    width: 100%;
     background-color: rgb(54, 27, 103, 0.5);
     color: #fff;
-    padding: 10px 0;
     text-align: center;
 }
 
@@ -156,8 +156,8 @@ footer {
 }
 
 .rounded-image {
-    width: 250px; /* Adjust as needed */
-    height: 250px; /* Adjust as needed */
+    width: 25%; /* Adjust as needed */
+    height: 25%; /* Adjust as needed */
     border-radius: 50%;
     overflow: hidden;
     margin: 5% 8%;
@@ -181,4 +181,20 @@ footer {
     padding: 1% 1% 25%;
     margin: 2% 5% 1%;
     background-color: rgb(54, 27, 103, 0.5);
+}
+
+.project-list {
+    list-style: none;  /* Remove bullet points */
+    padding: 0;
+}
+  
+.project-list li {
+    background-color: #e0e0e0;  /* Gray background color */
+    margin: 1%;  /* Adjust margin as needed */
+    padding: 10px;  /* Adjust padding as needed */
+}
+  
+.project-list li a {
+    text-decoration: none;  /* Remove default link underline */
+    color: #333;  /* Set link color */
 }

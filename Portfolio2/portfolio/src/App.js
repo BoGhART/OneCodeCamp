@@ -20,6 +20,8 @@ import Front from './comps/Front';
 import Portfolio from './comps/Portfolio'; 
 import TravelJournal from './comps/Travels';
 import Projects from './comps/Projects';
+import Pokemon from './comps/Pokemon'
+import './assets/style.css';
 
 const App = () => (
   <Router>
@@ -28,6 +30,7 @@ const App = () => (
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/travels" element={<TravelJournal />} />
       <Route path="/projects" element={<Projects />} />
+      <Route path="/comps/pokemon" element={<Pokemon />} />
     </Routes>
   </Router>
 );

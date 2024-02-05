@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../assets/index.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import '../assets/style.css';
+import pfp from '../assets/Balongo, Harold Jay S-1006 - Copy.jpg';
 
 const Navigation = () => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -21,7 +22,7 @@ const Intro = () => (
     </div>
 
     <div className="rounded-image">
-      <img src="Balongo, Harold Jay S-1006 - Copy.jpg" alt="Img" width="100%" height="100%" style={{ objectFit: 'cover' }} />
+      <img src={pfp} alt="pfp"/>
     </div>
   </section>
 );
@@ -68,17 +69,17 @@ const Portfolio = () => (
 
     <About />
 
-    <Link to="/Travels" className="btn btn-primary" role="button">
+    <Link to="/Travels" className="btp btn-primary" role="button">
     Travel Journal
     </Link>
-    <Link to="/Projects" className="btn btn-primary" role="button">
+    <Link to="/Projects" className="btp btn-primary" role="button">
       Projects
     </Link>
 
 
     <Contact />
 
-    <Link to="/" className="btn btn-danger" role="button">
+    <Link to="/" className="ext btn-danger" role="button">
       Exit
     </Link>
 

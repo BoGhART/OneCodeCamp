@@ -15,12 +15,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../index.css';
+import '../assets/style.css';
 
 const Front = () => (
   <div className="front">
     <Link to="/portfolio" className="image-container">
-      <img className="default-image" src="https://www.meme-arsenal.com/memes/8d4944eb07e28ab1378f4696a90544b1.jpg" alt="Default Image" />
+      <img className="default-image" src="https://www.meme-arsenal.com/memes/8d4944eb07e28ab1378f4696a90544b1.jpg" alt="Default" />
     </Link>
   </div>
 );
